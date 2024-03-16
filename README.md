@@ -12,6 +12,8 @@ repositories {
 			maven { url 'https://jitpack.io' }
 		}
 ```
+Unsure what version to use? Check [here](https://jitpack.io/#ConsularAtol/macelib)
+
 Add the dependency to build.gradle
 ```
 dependencies {
