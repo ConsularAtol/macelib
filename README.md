@@ -19,3 +19,6 @@ dependencies {
 	}
 ```
 For more information on using Macelib for development, please visit the [wiki](https://github.com/ConsularAtol/macelib/wiki).
+
+# TODO
+- Add functionality for custom maces
