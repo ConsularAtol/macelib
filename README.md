@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/ConsularAtol/macelib.svg)](https://jitpack.io/#ConsularAtol/macelib)
+
 # Macelib
 Macelib is a library mod that allows developers to add custom enchantments for the mace added in 1.21. **When used on it's own, this mod adds no content other than allowing the mace to be enchanted with durabilty and weapon enchantments**.
 
