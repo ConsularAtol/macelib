@@ -7,6 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import consular.macelib.example.TestEnchantments;
+import consular.macelib.example.TestItems;
 
 public class MaceLib implements ModInitializer {
 	public static final String MODID = "macelib";
@@ -17,6 +18,7 @@ public class MaceLib implements ModInitializer {
 		if (FabricLoader.getInstance().isDevelopmentEnvironment()){
 			LOGGER.info("Dev environment detected, running example mod");
 			TestEnchantments.registerEnchantments();
+			TestItems.registerItems();
 		}
 	}
 }
