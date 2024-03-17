@@ -9,7 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class TestItems {
-    public static Item DIAMOND_MACE = registerItem("diamond_mace", new MaceItem(4, Items.DIAMOND, 250));
+    public static Item DIAMOND_MACE = registerItem("diamond_mace", new MaceItem(4 /* Base Damage */, Items.DIAMOND /* Repairing Item */, 250 /* Durability */));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(MaceLib.MODID, name), item);
