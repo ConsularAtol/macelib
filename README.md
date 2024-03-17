@@ -17,7 +17,7 @@ repositories {
 Add the dependency to build.gradle
 ```
 dependencies {
-	        implementation "com.github.ConsularAtol:macelib:${VERSION}"
+	        implementation "com.github.ConsularAtol:macelib:*VERSION*"
 	}
 ```
 Unsure what version to use? Check [here](https://jitpack.io/#ConsularAtol/macelib)
