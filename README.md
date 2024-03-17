@@ -23,6 +23,3 @@ dependencies {
 Unsure what version to use? Check [here](https://jitpack.io/#ConsularAtol/macelib)
 
 For more information on using Macelib for development, please visit the [wiki](https://github.com/ConsularAtol/macelib/wiki).
-
-# TODO
-- Add functionality for custom maces
